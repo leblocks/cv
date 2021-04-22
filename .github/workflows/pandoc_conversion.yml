@@ -7,6 +7,11 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
+      - uses: rojopolis/spellcheck-github-actions@0.13.0
+        name: spellcheck
+        with:
+          task_name: Markdown
+      
       - run: |
           mkdir output  # create output dir
       - uses: docker://pandoc/latex:2.13
