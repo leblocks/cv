@@ -1,0 +1,19 @@
+name: pandoc conversion
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-16.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          mkdir output  # create output dir
+      - uses: docker://pandoc/latex:2.13
+        with:
+          entrypoint: /bin/sh
+          args: -c "find ./ -iname '*.md' -type f -exec sh -c 'pandoc ${0} -s -o output/${0##*/}.pdf' {} \;"
+      - uses: actions/upload-artifact@v2.2.3
+        with:
+          name: output
+          path: output
