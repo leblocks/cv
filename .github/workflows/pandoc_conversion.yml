@@ -11,7 +11,8 @@ jobs:
           mkdir output  # create output dir
       - uses: docker://pandoc/latex:2.13
         with:
-          args: --output=cv.pdf cv.md
+          entrypoint: /bin/sh
+          args: -c "find ./mds  -iname '*.md' -type f -exec sh -c 'pandoc ${0} -s -o output/${0%.md}.pdf' {} \;"
       - uses: actions/upload-artifact@v2.2.3
         with:
-          path: cv.pdf
+          path: output
