@@ -1,3 +1,4 @@
+CV
 TODO
 github
 stackoverflow
@@ -5,3 +6,17 @@ Earnix
 LinkedIn
 javascript
 Nashorn
+Ramat
+Gan
+Gurevich
+gmail
+gurevich
+https
+www
+merso
+leblocks
+STP
+eslint
+lodash
+powershell
+MIET

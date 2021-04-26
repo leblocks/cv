@@ -29,7 +29,7 @@ geometry: margin=1cm
 
 *   ***QA Automation engineer*** - Earnix Ltd.\
     January 2018 - January 2019.\
-    Development and maintance of automated test scripts according to STP
+    Development and maintenance of automated test scripts according to STP
     * Initiated and implemented usage of *eslint* in tests repository
     * Created and maintained "wiki" knowledge base for QA automation team
     * Created test result validation framework
