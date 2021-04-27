@@ -1,9 +1,12 @@
-# CV repository
+## General
+Spellchecks and converts to pdf md-formatted resume documents.
 
-## Why?
-I use this repo to sync keep all of my CV in one place - checked and converted to PDF with help of github actions
+* For spellcheck this github action is being used: (https://github.com/rojopolis/spellcheck-github-actions)
+* For md to pdf conversion **pandoc** based github action is being used: (https://github.com/pandoc/pandoc-action-example)
 
-## TODO
-* fix wordlists for spell check
-* fix filename issue during conversion
-* finish CV
+## Usage
+To generate pdf documents locally, you'll have to install [pandoc](https://pandoc.org/) and a **pdf-engine** for it. I use default **LaTex** pdf engine (refer to the pandoc documentation)
+
+```bash
+sh -c convert.sh
+```
