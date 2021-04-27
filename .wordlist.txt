@@ -9,6 +9,7 @@ merso
 MIET
 Ramat
 repo
+rojopolis
 STP
 TODO
 wordlists
