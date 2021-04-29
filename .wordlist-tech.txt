@@ -1,9 +1,0 @@
-eslint
-javascript
-LaTeX
-lodash
-md
-Nashorn
-pandoc
-pdf
-powershell
