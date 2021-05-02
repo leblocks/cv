@@ -22,19 +22,23 @@ geometry: margin=1cm
     TODO\
     **Tech stack:**
 
-*   **Automation developer** - Earnix Ltd.\
+*   ***Automation developer*** - Earnix Ltd.\
     January 2019 - March 2020.\
-    TODO\
-    **Tech stack:**
+    Development and maintenance of test automation infrastructure.
+    * Implemented completely new features - load testing and data passing in between test suites.
+    * Migrated automation server from spring-boot 1.5.x to 2.1.x.
+    * Documented infrastructure maintenance process in a local "wiki".
+
+    **Tech stack:** java, maven, spring-boot, lombok, mongodb, javascript, react, redux, redux-saga, webpack, git.
 
 *   ***QA Automation engineer*** - Earnix Ltd.\
     January 2018 - January 2019.\
-    Development and maintenance of automated test scripts according to STP
-    * Initiated and implemented usage of *eslint* in tests repository
-    * Created and maintained "wiki" knowledge base for QA automation team
-    * Created test result validation framework
+    Development and maintenance of automated test scripts according to STP.
+    * Initiated and implemented usage of *eslint* and *jsdoc* in tests repository.
+    * Created and maintained "wiki" knowledge base for QA automation team.
+    * Created test result validation framework.
 
-    **Tech stack**: javascript (Nashorn/Node engines), eslint, lodash, git
+    **Tech stack**: javascript (Nashorn/Nodejs engines), eslint, jsdoc, handlebars, lodash, git.
 
 *   ***QA engineer*** - Earnix Ltd.\
     November 2016 - January 2018.\
