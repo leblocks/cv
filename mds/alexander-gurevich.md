@@ -18,15 +18,15 @@ geometry: margin=1cm
 *   **Software developer** - Earnix Ltd.\
     March 2020 - Current time.\
 
-    **Key Achievements:**
-    TODO\
-    **Tech stack:**
+    * Layed out infrastructure for migration of old RMI calls to a new REST API which greatly speed up migration process.
+
+    **Tech stack:** java, maven, python, git. 
 
 *   ***Automation developer*** - Earnix Ltd.\
     January 2019 - March 2020.\
     Development and maintenance of test automation infrastructure.
-    * Implemented completely new features - load testing and data passing in between test suites.
-    * Migrated automation server from spring-boot 1.5.x to 2.1.x.
+    * Extended test coverage by allowing composition of multiple system tests in a single test suite.
+    * Implemented load testing feature by allowing simultaneous execution of multiple test suites on a single test environment.
     * Documented infrastructure maintenance process in a local "wiki".
 
     **Tech stack:** java, maven, spring-boot, lombok, mongodb, javascript, react, redux, redux-saga, webpack, git.
@@ -34,21 +34,18 @@ geometry: margin=1cm
 *   ***QA Automation engineer*** - Earnix Ltd.\
     January 2018 - January 2019.\
     Development and maintenance of automated test scripts according to STP.
+    * Speed up test development process by implementing generic validation and reporting frameworks.
     * Initiated and implemented usage of *eslint* and *jsdoc* in tests repository.
     * Created and maintained "wiki" knowledge base for QA automation team.
-    * Created test result validation framework.
 
-    **Tech stack**: javascript (Nashorn/Nodejs engines), eslint, jsdoc, handlebars, lodash, git.
+    **Tech stack**: javascript (nashorn/nodejs engines), eslint, jsdoc, handlebars, lodash, git.
 
 *   ***QA engineer*** - Earnix Ltd.\
     November 2016 - January 2018.\
-    Testing of client-server application, end-to-end QA assistance during new features development.\
-    Planning and conducting function, performance and regression testing.
-    * Developed small set of useful bash/powershell scripts.
+    Testing of a client-server application, end-to-end QA assistance during new features development.\
+    * Developed small set of useful bash/powershell scripts for logfile monitoring on remote machines which eased work of QA and Development departments.
 
 ## Education & Training
 * National Research University of Electronic Technology (MIET)\
 Specialist, Department of Computer Science and Telecommunications (2007 - 2012)
 
-## Additional Information
-TODO
