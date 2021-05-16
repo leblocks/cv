@@ -1,4 +1,5 @@
 alexander
+API
 aspell
 config
 cv
@@ -16,20 +17,26 @@ leblocks
 linkedin
 LinkedIn
 lodash
+logfile
 lombok
 md
 merso
 MIET
 mongodb
 Nashorn
+nashorn
 Nodejs
+nodejs
 pandoc
 pdf
 powershell
 pyspelling
+pytest
 QA
 Ramat
+redux
 repo
+RMI
 rojopolis
 spellcheck
 stackoverflow
@@ -42,4 +49,3 @@ wordlists
 workflows
 www
 yml
-redux
